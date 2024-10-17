@@ -1,3 +1,3 @@
 # BIOL-3615
-Genomics &amp; Bioinformatics Fall 2024
-hola mundo
+##Genomics &amp; Bioinformatics Fall 2024
+/hola mundo
