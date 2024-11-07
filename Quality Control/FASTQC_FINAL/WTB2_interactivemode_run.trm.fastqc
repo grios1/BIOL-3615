@@ -1,0 +1,2 @@
+srun --pty bash
+module load fastqc | fastqc WTB2_1.trPE.fq.gz WTB2_2.trPE.fq.gz
