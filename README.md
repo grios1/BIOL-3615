@@ -14,3 +14,13 @@ Using the slurm script trimRNASeq3.SBATCH, the low-quality BP reads were elimina
 
 ### 3. FASTQC_FINAL
 The trimmed Paired-End files are analyzed for quality through FastQC, WTB2_1.trPE.fq.gz, and WTB2_2.trPE.fq.gz 
+
+##File Alignment
+Fastq > SAM > BAM
+###Align
+With the trimmed RNASeq files, the slurm scrip bowtie2script.SBATCH will allign the WTB2_1.trPE.fq.gz, and WTB2_2.trPE.fq.gz with the Canida Albicans reference genome found on the NCBI Database 
+https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000182965.3/ 
+Genome: GCF_000182965.3_ASM18296v3_rna.fna.gz  
+Annotations: GCF_000182965.3_ASM18296v3_genomic.gff.gz  
+
+This Step will produce the SAM file
