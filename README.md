@@ -6,7 +6,7 @@ This work will be completed in 3 stages: Quality Control, RNASeq Alignment, Diff
 
 ## Quality Control
 ### 1. FASTQC_Prelim
-Quality Control/FASTQC_Prelim
+Quality Control/FASTQC_Prelim /
 Working with the initial RNA sequence files WTB2_1.fq.gz, and WTB2_2.fq.gz, these are evaluated using the fastqc command. The interactive HTML files are attached inside the folder
 
 ### 2. Trimmomatic
